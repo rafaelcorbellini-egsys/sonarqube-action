@@ -23,9 +23,7 @@ sonar-scanner \
 	-Dsonar.projectKey=${SONAR_PROJECTKEY} \
 	-Dsonar.projectName=${SONAR_PROJECTNAME} \
 	-Dsonar.projectVersion=${SONAR_PROJECTVERSION} \
-	-Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} \
+	-Dsonar.sources=${INPUT_PROJECTBASEDIR} \
 	-Dsonar.java.binaries=${INPUT_JAVABINARIES} \
 	-Dsonar.login=${INPUT_LOGIN} \
-	-Dsonar.password=${INPUT_PASSWORD} \
-	-Dsonar.sources=. \
 	-Dsonar.sourceEncoding=UTF-8
