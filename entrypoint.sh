@@ -26,4 +26,5 @@ sonar-scanner \
 	-Dsonar.sources=${INPUT_PROJECTBASEDIR} \
 	-Dsonar.java.binaries=${INPUT_JAVABINARIES} \
 	-Dsonar.login=${INPUT_LOGIN} \
+	-Dsonar.projectBaseDir=. \
 	-Dsonar.sourceEncoding=UTF-8
